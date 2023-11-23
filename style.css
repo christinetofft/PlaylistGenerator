@@ -31,6 +31,7 @@ h1{
     font-family:'Agbalumo', 'sans-serif';
     margin-bottom: 20px;
     padding: 7px;
+    border-color: black;
 }
 
 .api-label {
@@ -55,6 +56,7 @@ h1{
     font-size: 13px;
     padding-bottom: 2px;
     margin-bottom: 20px;
+    border-color: black;
 }
 
 .create {
@@ -71,7 +73,7 @@ button {
     border-radius: 6px;
     border-color: black;
     background-color: #e1d6d7;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
     font-family:'Agbalumo', 'sans-serif';
     font-size: 14px;
     margin-bottom: 20px;
