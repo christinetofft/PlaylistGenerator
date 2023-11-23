@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+</header>
+<main>
+    <h1>Generate a playlist based on your mood</h1>
+    <label class="mood-label" for="mood">What mood are you in?</label>
+    <div class="mood-input">
+        <input id="mood" type="text" placeholder="Enter your mood...">
+    </div>
+    <label class="api-label" for="api-key">Insert your OpenAI api-key:</label>
+    <div class="api-input">
+        <input id="api-key" type="password" placeholder="xx-xxxxxxxxxxxxxxxxxxxxxxxxxxx">
+    </div>
+    <div class="create">
+        <button>Create your playlist</button>
+        <div class="loader none"></div>
+    </div>
+    <div class="container">
+        <p class="playlist"></p>
+        <div class="image">
+            <img src="musicimg.png" alt="Image of music notes">
+        </div>
+    </div>
+
+</main>
+<script src="main.js"></script>
+</body>
+</html>

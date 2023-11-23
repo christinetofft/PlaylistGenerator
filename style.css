@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Nanum+Myeongjo&display=swap");
+
+body {
+    background-color: #e1d6d7;
+}
+
+h1{
+    font-family: 'Agbalumo', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.mood-label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.mood-input {
+    display: flex;
+    justify-content: center;
+}
+
+#mood {
+    border-radius: 6px;
+    font-size: 14px;
+    font-family:'Agbalumo', 'sans-serif';
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+.api-label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+.api-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#api-key {
+    padding: 4px;
+    width: 200px;
+    padding-left: 8px;
+    border-radius: 6px;
+    font-size: 13px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    border-color: black;
+    background-color: #e1d6d7;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-family:'Agbalumo', 'sans-serif';
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #d1c1c4;
+}
+
+.loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid black; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.none {
+    display: none;
+}
+.block {
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.image {
+    margin-left: 80px;
+}
