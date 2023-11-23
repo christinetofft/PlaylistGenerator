@@ -1,4 +1,3 @@
-const myApiKey = "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";
 const button = document.querySelector('button');
 const moodInput = document.querySelector('#mood');
 const pTag = document.querySelector('.container .playlist');
@@ -35,6 +34,12 @@ button.addEventListener("click", () => {
             loading.classList.remove('block');
             loading.classList.add('none');
     })
+        .catch(error => {
+            console.error("Error:", error);
+            pTag.innerText = 'An error occurred 😥 Please try another OpenAi api-key or mood.';
+            loading.classList.remove('block');
+            loading.classList.add('none');
+        });
 })
 
 
